@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Wide variety of used vehicles.">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="output.css">
+  <title>Car Dealer Site</title>
+</head>
+<body class="">
+  <header class="flex justify-between px-8 py-4 items-center">
+    <a href="index.html"><h1>My Logo</h1></a>
+    <div class="contact hidden md:flex flex-col">
+      <a href="https://outlook.com">Email Us: email@email.com</a><br>
+      <a href="tel:01111111111">Call Us: 01111 111111</a>
+      <p>12 The Street, <br>
+        Cambridgeshire, <br>
+       CB1 1QQ</p>
+    </div>
+    <i class="md:hidden hamburger fas fa-bars"></i>
+  </header>
+
+  <nav class="bg-black text-white p-4 text-lg hidden md:block font-ubuntu">
+    <div class="flex justify-around">
+      <a href="#" class="hover:text-orange-600 text-orange-600">Home</a>
+      <a href="stock.html" class="hover:text-orange-600">Used Cars</a>
+      <a href="valuations.html" class="hover:text-orange-600">Valuations</a>
+      <a href="services.html" class="hover:text-orange-600">Our Services</a>
+    </div>
+  </nav>
+
+  <div class="absolute hidden mobile-menu w-full top-0 left-1/2 -translate-x-1/2">
+    <div class="fixed w-full h-screen bg-black opacity-90 text-orange-600 flex flex-col justify-center items-center space-y-6 list-none text-3xl">
+      <i class="absolute top-5 right-5 fas fa-times close"></i>
+      <a href="index.html">Home</a>
+      <a href="stock.html">Used Cars</a>
+      <a href="services.html">Our Services</a>
+      <a href="valuations.html">Valuations</a>
+    </div>
+  </div>
+
+  <main class="bg-[url(./images/hero.png)] h-[80vh] bg-center bg-no-repeat bg-cover text-white flex flex-col justify-end items-center pb-20 font-ubuntu">
+    <h2 class="text-3xl pb-12 text-center px-4">Find your next dream car with us!</h2>
+    <a href="stock.html" class="px-8 py-2 mb-10 bg-orange-600 rounded-md hover:text-black hover:opacity-90 transition-ease-in-out duration-500 hover:scale-110">Find It Now</a>
+    <div class="features flex text-2xl hidden md:flex">
+      <i class="far fa-check-circle text-orange-600 text-5xl px-4"></i><p>6 Months Warranty</p>
+      <i class="far fa-check-circle text-orange-600 text-5xl px-4"></i><p>Finance Avaliable</p>
+      <i class="far fa-check-circle text-orange-600 text-5xl px-4"></i><p>Free Breakdown</p>
+    </div>
+  </main>
+
+  <section class="bg-black text-white p-8 text-center font-orbitron font-bold">
+    <h3 class="mb-5 text-4xl tracking-wide">New Arrivals</h3>
+    <div class="offers-container grid grid-cols-1 gap-6 md:grid-cols-4 text-sm">
+      <div class="offer-card">
+        <img class="rounded-t-2xl w-full" src="./images/golf.png" alt="">
+        <div class="prices flex-col items-center text-white">
+          <p class="bg-darkGrey p-3">£9,500</p>
+          <p class="bg-black"><span class="text-orange-600">Finance </span><br>£223 p/m</p>
+        </div>
+        <div class="details bg-white text-black p-2">
+          <p>VW Golf</p>
+          <p>2014 2.0 TDI 165 BHP</p>
+        </div>
+      </div>
+      <div class="offer-card">
+        <img class="rounded-t-2xl w-full" src="./images/e-class.png" alt="">
+        <div class="prices flex-col items-center text-white">
+          <p class="bg-darkGrey p-3">£19,500</p>
+          <p class="bg-black"><span class="text-orange-600">Finance </span><br>£337 p/m</p>
+        </div>
+        <div class="details bg-white text-black p-2">
+          <p>Mercedes E-Class</p>
+          <p>2018 3.0 TDI 225 BHP</p>
+        </div>
+      </div>
+      <div class="offer-card">
+        <img class="rounded-t-2xl w-full" src="./images/range-rover.png" alt="">
+        <div class="prices flex-col items-center text-white">
+          <p class="bg-darkGrey p-3">£24,000</p>
+          <p class="bg-black"><span class="text-orange-600">Finance </span><br>423 p/m</p>
+        </div>
+        <div class="details bg-white text-black p-2">
+          <p>Range Rover Sport</p>
+          <p>2014 4.4L V8 296 BHP</p>
+        </div>
+      </div>
+      <div class="offer-card">
+        <img class="rounded-t-2xl w-full" src="./images/ford-focus.png" alt="">
+        <div class="prices flex-col items-center text-white">
+          <p class="bg-darkGrey p-3">£13,750</p>
+          <p class="bg-black"><span class="text-orange-600">Finance </span><br>296 p/m</p>
+        </div>
+        <div class="details bg-white text-black p-2">
+          <p>Ford Focus ST</p>
+          <p>2011 2.5L 222 BHP</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services-cards flex flex-col justify-around md:flex-row text-center p-8 bg-darkGrey font-ubuntu font-bold">
+    <a href="services.html" class="m-3"><div class="service-card h-full bg-white rounded-2xl hover:opacity-80">
+      <img class="rounded-t-2xl w-full" src="./images/finance-image.png" alt="">
+      <h4>Finance</h4>
+      <p>Various finance options avaliable</p>
+    </div>
+    </a>
+      <a href="valuations.html" class="m-3"><div class="service-card h-full bg-white hover:opacity-80 rounded-2xl">
+      <img class="rounded-t-2xl w-full" src="./images/part-ex-image.png  " alt="">
+      <h4>Part Exchange</h4>
+      <p>Trade your car in with us!</p>
+    </div>
+    </a>
+    <a href="valuations.html" class="m-3"><div class="service-card h-full bg-white rounded-2xl hover:opacity-80 rounded-2xl">
+      <img class="rounded-t-2xl w-full" src="./images/buy-car-image.png" alt="">
+      <h4>Sell your car</h4>
+      <p>Hastle free purchase of your vehicle</p>
+    </div>
+    </a>
+  </section>
+
+  <section class="reviews bg-black text-white text-center p-8">
+
+    <h3 class="mb-5 text-3xl font-orbitron">Customer Reviews</h3>
+    <div class="flex flex-col md:hidden">
+      <a href="https://www.google.com" target="-BLANK" class="text-2xl">Google</a>
+      <div class="text-yellow-400">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+    </div>
+    <div class="reviews-container relative hidden bg-lightGrey font-ubuntu h-52 min-h-full md:block p-8 md:w-3/4 max-w-4xl mx-auto rounded-xl">
+      <div class="slide-cont p-3 text-lg">
+        <h4 class="name">John Doe</h4>
+        <p class="testimonal px-8 mt-2"></p>
+        <button class="nxt absolute top-1/2 right-6 -translate-y-1/2 text-4xl">&#8594;</button>
+        <button class="prev absolute top-1/2 left-6  -translate-y-1/2 text-4xl">&#8592;</button>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer bg-darkGrey font-ubuntu text-white p-8">
+
+    <div class="upper-footer grid grid-cols-1 md:grid-cols-3 gap-10">
+
+      <div class="contact-us">
+        <h5 class="border-b-2 border-solid border-black text-center mb-4">Get In Touch</h5>
+        <div class="address flex justify-around items-center">
+          <p>1 The Street, <br>
+            The Town,<br>
+            Cambridgeshire,<br>
+            <a href="https://www.google.co.uk/maps/place/Cambridge+CB1/@52.1938435,0.1326184,13z/data=!3m1!4b1!4m5!3m4!1s0x47d86fe09ee56315:0x213170e715245d4!8m2!3d52.1964114!4d0.1746102" target="_blank">CB1</a>
+          </p>
+        <div class="contact-info flex flex-col text-center">
+          <a href="tel:01333333333" class="hover:text-white">01333 333333</a>
+          <a href="https://outlook.com" target="_blank" class="hover:text-white text-lg">email@email.com</a>
+          <div class="socials text-3xl text-white">
+            <a href="https://en-gb.facebook.com/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank" aria-label="Instagram"><i class="fab fa-instagram hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+            <a href="https://twitter.com/" target="_blank" aria-label="Twitter"><i class="fab fa-twitter hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="hours text-center">
+        <h5 class="border-b-2 border-solid border-black mb-4">Opening Hours</h5>
+        <div class="times flex justify-around text-left">
+          <div>
+            <p>Monday</p>
+            <p>Tuesday</p>
+            <p>Wednesday</p>
+            <p>Thursday</p>
+            <p>Friday</p>
+            <p>Saturday</p>
+            <p>Sunday</p>
+          </div>
+          <div>
+            <p>8.30-17.00</p>
+            <p>8.30-17.00</p>
+            <p>8.30-17.00</p>
+            <p>8.30-17.00</p>
+            <p>8.30-17.00</p>
+            <p>9.00-14.00</p>
+            <p>Closed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="link">
+        <h5 class="border-b-2 border-solid border-black">Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="stock.html">Used Cars</a></li>
+          <li><a href="index.html">Contact</a></li>
+          <li><a href="index.html">Finance</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lower-footer flex flex-col items-center mt-4 border-t-2 border-dotted border-black">
+      <div class="company-info flex p-2">
+        <p>Vat No: 2121532153215 | Company No: 2121532153215 | FCA No: 2121532153215  </p>
+      </div>
+      <div class="website-info">
+        <p>Copright &copy; 2022 - Company Name | Website design by <a href="https://www.asgdev.co.uk/">ASG Developments</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="mobile.js"></script>
+</body>
+</html>

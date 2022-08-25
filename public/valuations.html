@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="output.css">
+  <title>Valuations</title>
+</head>
+<body>
+  <header class="flex justify-between px-8 py-4 items-center">
+    <a href="index.html"><h1>My Logo</h1></a>
+    <div class="contact hidden md:flex flex-col">
+      <a href="">Email Us: email@email.com</a><br>
+      <a href="">Call Us: 01111 111111</a>
+      <p>12 THE Street, <br>
+        Cambridgeshire, <br>
+       CB1 1QQ</p>
+    </div>
+    <i class="md:hidden hamburger fas fa-bars"></i>
+  </header>
+
+  <nav class="bg-black text-white p-4 text-lg hidden md:block font-ubuntu">
+    <div class="flex justify-around">
+      <a href="index.html" class="hover:text-orange-600">Home</a>
+      <a href="stock.html" class="hover:text-orange-600">Used Cars</a>
+      <a href="valuations.html" class="hover:text-orange-600 text-orange-600">Valuations</a>
+      <a href="services.html" class="hover:text-orange-600">Our Services</a>
+    </div>
+  </nav>
+
+  <div class="absolute hidden mobile-menu w-full top-0 left-1/2 -translate-x-1/2">
+    <div class="fixed w-full h-screen bg-black opacity-90 text-orange-600 flex flex-col justify-center items-center space-y-6 list-none text-3xl">
+      <i class="absolute top-5 right-5 fas fa-times close"></i>
+      <a href="index.html">Home</a>
+      <a href="stock.html">Used Cars</a>
+      <a href="services.html">Our Services</a>
+      <a href="valuations.html">Valuations</a>
+    </div>
+  </div>
+
+  <div class="flex flex-col md:flex-row bg-lightGrey p-8">
+    <div class="md:w-3/5">
+      <div class="text-white py-4 space-y-2 m-4">
+        <h3 class="text-lg">Speak to one of our experts</h3>
+        <h4 class="font-orbitron text-2xl">Free Quotation</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum libero maxime facere ipsum corporis quos obcaecati debitis ex est perspiciatis!</p>
+      </div>
+      <div class="bg-darkGrey p-6 m-4">
+        <h4 class="text-center text-xl font-bold font-orbitron mb-4 text-white tracking-wider">Part Exchange Form</h4>
+        <p>Please fill in the form below with all of your details and one of the team will be in contact with you soon!</p>
+        <p>All fields required!</p>
+        <form action="POST" class="flex flex-col items-center">
+          <input type="text" class="name w-3/4 md:w-1/2 p-1.5 rounded-md m-2 outline-none" placeholder="Enter Name">
+          <input type="text" class="number w-3/4 md:w-1/2 p-1.5 rounded-md m-2 outline-none" placeholder="Enter Number">
+          <input type="text" class="email w-3/4 md:w-1/2 p-1.5 rounded-md m-2 outline-none" placeholder="Enter Email">
+          <button class="btn bg-orange-600 text-white w-3/4 md:w-1/2 p-1.5 rounded-md m-2 hover:opacity-80">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="md:w-2/5">
+      <div class="bg-darkGrey p-6 m-4 flex flex-col border-b-4 border-r-4 border-orange-600 text-lg font-orbitron text-white space-y-4">
+        <h4 class="text-xl border-b-2 border-orange-600">Contact Us</h4>
+        <a href="https://outlook.com" target="_BLANK" class="hover:text-orange-600"><i class="fa fa-envelope mr-4"></i>email@email.com</a>
+        <a href="tel:01333333333" target="_BLANK" class="hover:text-orange-600 tracking-widest"><i class="fa fa-phone mr-4"></i>01111 111111</a>
+        <div class="flex space-x-4 text-3xl">
+        <a href="https://en-gb.facebook.com/" target="_blank"><i class="fab fa-facebook hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+        <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+        </div>
+      </div>
+      <div class="bg-white p-6 m-4 border-b-4 border-r-4 border-orange-600">
+        <h4>Our Partners</h4>
+        <p>Finance</p>
+        <p>Trusted Garage</p>
+        <p>Warranty</p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer bg-darkGrey font-ubuntu text-white p-8">
+    <div class="upper-footer grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div class="contact-us">
+        <h5 class="border-b-2 border-solid border-black text-center mb-4">Get In Touch</h5>
+        <div class="address flex justify-around items-center">
+          <p>1 The Street, <br>
+            The Town,<br>
+            Cambridgeshire,<br>
+            <a href="https://www.google.co.uk/maps/place/Cambridge+CB1/@52.1938435,0.1326184,13z/data=!3m1!4b1!4m5!3m4!1s0x47d86fe09ee56315:0x213170e715245d4!8m2!3d52.1964114!4d0.1746102" target="_blank">CB1</a>
+          </p>
+        <div class="contact-info flex flex-col text-center">
+          <a href="tel:01333333333" class="hover:text-white">01333 333333</a>
+          <a href="https://outlook.com" target="_blank" class="hover:text-white text-lg">email@email.com</a>
+          <div class="socials text-3xl text-white">
+            <a href="https://en-gb.facebook.com/" target="_blank"><i class="fab fa-facebook hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="hours text-center">
+        <h5 class="border-b-2 border-solid border-black mb-4">Opening Hours</h5>
+        <div class="times flex justify-around text-left">
+          <div>
+            <p>Mon</p>
+            <p>Tue</p>
+            <p>Wed</p>
+            <p>Thu</p>
+            <p>Fri</p>
+            <p>Sat</p>
+            <p>Sun</p>
+          </div>
+          <div>
+            <p>8.30-17.00</p>
+            <p>8.30-17.00</p>
+            <p>8.30-17.00</p>
+            <p>8.30-17.00</p>
+            <p>8.30-17.00</p>
+            <p>9.00-14.00</p>
+            <p>Closed</p>
+          </div>
+        </div>
+      </div>
+      <div class="link">
+        <h5 class="border-b-2 border-solid border-black">Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="stock.html">Used Cars</a></li>
+          <li><a href="index.html">Contact</a></li>
+          <li><a href="services.html">Finance</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="lower-footer flex flex-col items-center mt-4 border-t-2 border-dotted border-black">
+      <div class="company-info flex p-2">
+        <p>Vat No: 2121532153215 | Company No: 2121532153215 | FCA No: 2121532153215  </p>
+      </div>
+      <div class="website-info">
+        <p>Copright &copy; 2022 - Company Name | Website design by <a href="https://www.asgdev.co.uk/">ASG Developments</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="form.js"></script>
+  <script src="mobile.js"></script>
+</body>
+</html>

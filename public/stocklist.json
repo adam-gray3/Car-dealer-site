@@ -1,0 +1,90 @@
+{"StockList":
+  [{
+    "make": "Audi",
+    "model": "Q7",
+    "price": "35000",
+    "image": "./images/audi.png",
+    "mileage": "34,000",
+    "fuelType": "Diesel",
+    "transmission": "DSG",
+    "year": "2018",
+    "id": "1"
+    },
+  {
+    "make": "Audi",
+    "model": "A6",
+    "price": "12000",
+    "image": "./images/audi-2.png",
+    "mileage": "46,000",
+    "fuelType": "Diesel",
+    "transmission": "Auto",
+    "year": "2016",
+    "id": "2"
+    },
+  {
+    "make": "Bmw",
+    "model": "3 Series",
+    "price": "16000",
+    "image": "./images/bmw.png",
+    "mileage": "28,000",
+    "fuelType": "Petrol",
+    "transmission": "Manual",
+    "year": "2014",
+    "id": "3"
+    },
+  {
+    "make": "Volkswagen",
+    "model": "Golf",
+    "price": "6500",
+    "image": "./images/golf.png",
+    "mileage": "74,000",
+    "fuelType": "Petrol",
+    "transmission": "DSG",
+    "year": "2009",
+    "id": "4"
+    },
+  {
+    "make": "Range Rover",
+    "model": "Sport",
+    "price": "28000",
+    "image": "./images/range-rover.png",
+    "mileage": "23,000",
+    "fuelType": "Petrol",
+    "transmission": "Auto",
+    "year": "2013",
+    "id": "5"
+    },
+  {
+    "make": "Mini",
+      "model": "Cooper S",
+      "price": "14000",
+      "image": "./images/mini.png",
+      "mileage": "18,000",
+      "fuelType": "Petrol",
+      "transmission": "Manual",
+      "year": "2014",
+      "id": "6"
+    },
+  {
+    "make": "Nissan",
+    "model": "GTR",
+    "price": "42000",
+    "image": "./images/nissan-gtr.png",
+    "mileage": "32,000",
+    "fuelType": "Petrol",
+    "transmission": "Auto",
+    "year": "2014",
+    "id": "7"
+    },
+  {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "price": "36000",
+    "image": "./images/jeep.png",
+    "mileage": "31,000",
+    "fuelType": "Diesel",
+    "transmission": "Auto",
+    "year": "2014",
+    "id": "8"
+  }]
+}
