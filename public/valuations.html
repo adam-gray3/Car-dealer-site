@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="We offer valutions on all makes and models, please get in touch.">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,11 +13,11 @@
   <title>Valuations</title>
 </head>
 <body>
-  <header class="flex justify-between px-8 py-4 items-center">
+  <header class="bg-black text-white flex justify-between px-8 py-4 items-center">
     <a href="index.html"><h1>My Logo</h1></a>
     <div class="contact hidden md:flex flex-col">
-      <a href="">Email Us: email@email.com</a><br>
-      <a href="">Call Us: 01111 111111</a>
+      <a href="https://outlook.com" target="_BLANK">Email Us: email@email.com</a><br>
+      <a href="tel:01333333333">Call Us: 01111 111111</a>
       <p>12 THE Street, <br>
         Cambridgeshire, <br>
        CB1 1QQ</p>
@@ -24,12 +25,12 @@
     <i class="md:hidden hamburger fas fa-bars"></i>
   </header>
 
-  <nav class="bg-black text-white p-4 text-lg hidden md:block font-ubuntu">
+  <nav class="bg-orange-600 text-white p-4 text-lg hidden md:block font-ubuntu">
     <div class="flex justify-around">
-      <a href="index.html" class="hover:text-orange-600">Home</a>
-      <a href="stock.html" class="hover:text-orange-600">Used Cars</a>
-      <a href="valuations.html" class="hover:text-orange-600 text-orange-600">Valuations</a>
-      <a href="services.html" class="hover:text-orange-600">Our Services</a>
+      <a href="index.html" class="hover:text-black">Home</a>
+      <a href="stock.html" class="hover:text-black">Used Cars</a>
+      <a href="valuations.html" class="hover:text-black">Valuations</a>
+      <a href="services.html" class="hover:text-black">Our Services</a>
     </div>
   </nav>
 
@@ -50,16 +51,29 @@
         <h4 class="font-orbitron text-2xl">Free Quotation</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum libero maxime facere ipsum corporis quos obcaecati debitis ex est perspiciatis!</p>
       </div>
-      <div class="bg-darkGrey p-6 m-4">
-        <h4 class="text-center text-xl font-bold font-orbitron mb-4 text-white tracking-wider">Part Exchange Form</h4>
-        <p>Please fill in the form below with all of your details and one of the team will be in contact with you soon!</p>
-        <p>All fields required!</p>
-        <form action="POST" class="flex flex-col items-center">
-          <input type="text" class="name w-3/4 md:w-1/2 p-1.5 rounded-md m-2 outline-none" placeholder="Enter Name">
-          <input type="text" class="number w-3/4 md:w-1/2 p-1.5 rounded-md m-2 outline-none" placeholder="Enter Number">
-          <input type="text" class="email w-3/4 md:w-1/2 p-1.5 rounded-md m-2 outline-none" placeholder="Enter Email">
-          <button class="btn bg-orange-600 text-white w-3/4 md:w-1/2 p-1.5 rounded-md m-2 hover:opacity-80">Submit</button>
+      <div class="text-center bg-darkGrey p-6 m-4">
+        <h4 class="ext-xl font-bold font-orbitron mb-4 text-white tracking-wider">Part Exchange Form</h4>
+        <p> Please fill in the form below with all of your details and one of the team will be in contact with you soon!</p>
+
+        <form action="POST" class="flex flex-col items-center m-4">
+          <div class="form-control flex flex-col w-3/4">
+              <small class="hidden"></small>
+              <input type="text" class="name w-full p-1.5 rounded-md m-2 outline-none" placeholder="Enter Name">
+          </div>
+          <div class="form-control flex flex-col w-3/4 text-red4">
+              <small class="hidden"></small>
+              <input type="number" class="number w-full p-1.5 rounded-md m-2 outline-none" placeholder="Enter Contact Number">
+          </div>
+          <div class="form-control flex flex-col w-3/4 text-red4">
+              <small class="hidden"></small>
+              <input type="email" class="email w-full p-1.5 rounded-md m-2 outline-none" placeholder="Enter Contact Email">
+          </div>
+          <div class="w-3/4">
+            <button type="submit" class="btn bg-orange-600 text-white w-full p-1.5 rounded-md m-2 hover:opacity-80">Submit</button>
+          </div>
+
         </form>
+
       </div>
     </div>
     <div class="md:w-2/5">
@@ -95,9 +109,9 @@
           <a href="tel:01333333333" class="hover:text-white">01333 333333</a>
           <a href="https://outlook.com" target="_blank" class="hover:text-white text-lg">email@email.com</a>
           <div class="socials text-3xl text-white">
-            <a href="https://en-gb.facebook.com/" target="_blank"><i class="fab fa-facebook hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
-            <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
-            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+            <a href="https://en-gb.facebook.com/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank" aria-label="instgram"><i class="fab fa-instagram hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
+            <a href="https://twitter.com/" target="_blank" aria-label="twitter"><i class="fab fa-twitter hover:scale-125 transition-ease-in duration-1000 hover:rotate-[360deg] hover:text-orange-600"></i></a>
           </div>
         </div>
         </div>
@@ -129,10 +143,9 @@
         <h5 class="border-b-2 border-solid border-black">Links</h5>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="index.html">About</a></li>
           <li><a href="stock.html">Used Cars</a></li>
-          <li><a href="index.html">Contact</a></li>
-          <li><a href="services.html">Finance</a></li>
+          <li><a href="valuations.html">Valuations</a></li>
+          <li><a href="services.html">Our Services</a></li>
         </ul>
       </div>
     </div>

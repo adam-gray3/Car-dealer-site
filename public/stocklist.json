@@ -8,7 +8,8 @@
     "fuelType": "Diesel",
     "transmission": "DSG",
     "year": "2018",
-    "id": "1"
+    "id": "1",
+    "color": "White"
     },
   {
     "make": "Audi",
@@ -19,7 +20,8 @@
     "fuelType": "Diesel",
     "transmission": "Auto",
     "year": "2016",
-    "id": "2"
+    "id": "2",
+    "color": "Grey"
     },
   {
     "make": "Bmw",
@@ -30,7 +32,8 @@
     "fuelType": "Petrol",
     "transmission": "Manual",
     "year": "2014",
-    "id": "3"
+    "id": "3",
+    "color": "Nardo Grey"
     },
   {
     "make": "Volkswagen",
@@ -41,7 +44,8 @@
     "fuelType": "Petrol",
     "transmission": "DSG",
     "year": "2009",
-    "id": "4"
+    "id": "4",
+    "color": "Metallic Grey"
     },
   {
     "make": "Range Rover",
@@ -52,7 +56,8 @@
     "fuelType": "Petrol",
     "transmission": "Auto",
     "year": "2013",
-    "id": "5"
+    "id": "5",
+    "color": "Pearl White"
     },
   {
     "make": "Mini",
@@ -63,7 +68,8 @@
       "fuelType": "Petrol",
       "transmission": "Manual",
       "year": "2014",
-      "id": "6"
+      "id": "6",
+      "color": "Grey"
     },
   {
     "make": "Nissan",
@@ -74,7 +80,8 @@
     "fuelType": "Petrol",
     "transmission": "Auto",
     "year": "2014",
-    "id": "7"
+    "id": "7",
+    "color": "Gloss White"
     },
   {
     "make": "Jeep",
@@ -85,6 +92,7 @@
     "fuelType": "Diesel",
     "transmission": "Auto",
     "year": "2014",
-    "id": "8"
+    "id": "8",
+    "color": "Green"
   }]
 }

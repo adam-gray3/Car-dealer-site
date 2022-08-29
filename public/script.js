@@ -174,7 +174,7 @@ const modal = document.querySelector(".car-modal");
 const body = document.querySelector("body");
 
 function displayFullCar(selectedCar){
-  const {make, model, price, image, mileage, fuelType, transmission, year, id} = selectedCar;
+  const {make, model, price, image, mileage, fuelType, transmission, year, id, color} = selectedCar;
   const fullDetails = `
   <div class="selected-details fixed overflow-y-auto text-black bg-white m-4 lg:w-3/4">
     <i onclick="closeModal()" class="close-modal absolute top-2 right-6 fas fa-times close text-orange-600 cursor-pointer text-2xl p-2"></i>
@@ -187,11 +187,7 @@ function displayFullCar(selectedCar){
             <h4 class="text-xl">£${price}</h4>
             <p class="p-2 mb-4 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ea adipisci tempore laborum hic unde cum, incidunt consequuntur reiciendis provident?
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ea adipisci tempore laborum hic unde cum, incidunt consequuntur reiciendis provident?</p>
-            <div class="grid grid-cols-2">
-              <button class="bg-darkGrey p-2 m-2">Finance</button>
-              <button class="bg-darkGrey p-2 m-2">Part Exchange</button>
-              <button class="bg-darkGrey p-2 m-2 col-span-2">Test Drive</button>
-            </div>
+            <a href="TEL:01333333333" class="bg-darkGrey p-2 rounded-md">Call Now To Book A Test Drive!</a>
           </div>
         </div>
 
@@ -227,7 +223,7 @@ function displayFullCar(selectedCar){
             <li class="p-2">Trim Level</li>
           </ul>
           <ul class="">
-            <li class="p-2">Black</li>
+            <li class="p-2">${color}</li>
             <li class="p-2">Saloon</li>
             <li class="p-2">Exec</li>
           </ul>
