@@ -176,7 +176,7 @@ const body = document.querySelector("body");
 function displayFullCar(selectedCar){
   const {make, model, price, image, mileage, fuelType, transmission, year, id, color} = selectedCar;
   const fullDetails = `
-  <div class="selected-details fixed overflow-y-auto text-black bg-white m-4 lg:w-3/4">
+  <div class="selected-details relative text-black bg-white m-4 lg:w-3/4">
     <i onclick="closeModal()" class="close-modal absolute top-2 right-6 fas fa-times close text-orange-600 cursor-pointer text-2xl p-2"></i>
         <div class="p-4 md:flex">
           <div class="img-gallery w-full flex justify-center">
@@ -191,8 +191,8 @@ function displayFullCar(selectedCar){
           </div>
         </div>
 
-      <div class="stats-chart bg-darkGrey p-4 text-white text-sm flex flex-col md:flex-row justify-around">
-        <div class="stats-cards flex m-4">
+      <div class="w-full stats-chart bg-darkGrey p-4 text-white text-sm flex flex-col md:flex-row justify-around">
+        <div class="stats-cards flex justify-between m-2">
           <ul class="">
             <li class="p-2">Year of Reg</li>
             <li class="p-2">Registration</li>
@@ -204,19 +204,19 @@ function displayFullCar(selectedCar){
             <li class="p-2">${mileage}</li>
           </ul>
         </div>
-        <div class="stats-cards flex m-4">
+        <div class="stats-cards flex justify-between m-2">
           <ul class="">
             <li class="p-2">Engine Size</li>
             <li class="p-2">Transmission</li>
             <li class="p-2">Fuel Type</li>
           </ul>
           <ul class="">
-            <li class="p-2">3.0l</li>
-            <li class="p-2">${transmission}</li>
             <li class="p-2">${fuelType}</li>
+            <li class="p-2">${transmission}</li>
+            <li class="p-2">3.0l TDI</li>
           </ul>
         </div>
-        <div class="stats-cards flex m-4">
+        <div class="stats-cards flex justify-between m-2">
           <ul class="">
             <li class="p-2">Color</li>
             <li class="p-2">Body Style</li>
@@ -228,7 +228,7 @@ function displayFullCar(selectedCar){
             <li class="p-2">Exec</li>
           </ul>
         </div>
-        <div class="stats-cards flex m-4">
+        <div class="stats-cards flex justify-between m-2">
           <ul class="">
             <li class="p-2">Insurance Group</li>
             <li class="p-2">Road Tax 6 Mths</li>

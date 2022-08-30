@@ -33,7 +33,7 @@
     "transmission": "Manual",
     "year": "2014",
     "id": "3",
-    "color": "Nardo Grey"
+    "color": "Grey"
     },
   {
     "make": "Volkswagen",
@@ -45,7 +45,7 @@
     "transmission": "DSG",
     "year": "2009",
     "id": "4",
-    "color": "Metallic Grey"
+    "color": "Grey"
     },
   {
     "make": "Range Rover",
@@ -57,7 +57,7 @@
     "transmission": "Auto",
     "year": "2013",
     "id": "5",
-    "color": "Pearl White"
+    "color": "White"
     },
   {
     "make": "Mini",
@@ -81,7 +81,7 @@
     "transmission": "Auto",
     "year": "2014",
     "id": "7",
-    "color": "Gloss White"
+    "color": "White"
     },
   {
     "make": "Jeep",
