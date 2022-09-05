@@ -845,19 +845,14 @@ video {
   background-color: rgb(78 81 86 / var(--tw-bg-opacity));
 }
 
-.bg-mainOrange {
+.bg-orange-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 115 21 / var(--tw-bg-opacity));
+  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
 }
 
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-orange-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -978,12 +973,12 @@ video {
   text-align: center;
 }
 
-.font-ubuntu {
-  font-family: Ubuntu, sans-serif;
-}
-
 .font-orbitron {
   font-family: Orbitron, sans-serif;
+}
+
+.font-ubuntu {
+  font-family: Ubuntu, sans-serif;
 }
 
 .text-3xl {
