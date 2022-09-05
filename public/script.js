@@ -252,9 +252,3 @@ function closeModal(){
   const showing = document.querySelector(".selected-details");
   showing.remove();
 };
-
-// function filterById(stock){
-//   return selectId = stock.filter(vehicle => {
-//     return vehicle.id === vehicleId;
-//   })
-// };
